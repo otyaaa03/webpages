@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link  rel="stylesheet" type="text/css" href="css/homepage.css">
+        <title>HOMEPAGE</title>
+    </head>
+<!--参考文献--https://web-design-textbook.com/makepage/middle -->
+
+    <body>
+        <header>
+            <img src="image/otya.png" alt="otyaaa">
+            <div class="top-title0">
+                OTYAAA
+            </div>
+            <div class="top-title">
+                <br>
+                HOMEPAGE
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+                <!--aboutは私について, Workは何をしているか, Planは趣味, 
+                Accessは各種リンク, Galleryは写真何枚かおく？Futureで何をしていきたいかを書いてもいいかも-->
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#diary">Diary</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#access">Access</a></li>
+                <li><a href="#news">News</a></li>
+            </ul>
+        </nav>
+        <!--menu button-->
+        <div class="menubutton" onclick="menu()">
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+
+        <main id="about">
+            <h1>私のホームページ</h1>
+            <div class="Work" id="work">
+                <img src="image/work0.png" alt="workの写真">
+                <div class="comments">
+                    <h2>行っていること</h2>
+                    <p>今はホームページを作っている</p>
+                    <div>※依頼は受け付けていません。</div>
+                </div>
+            </div>
+
+            <div class="Work">
+                <img src="image/7.png" alt="誕生日の写真">
+                <div class="comments">
+                    <h2>行っていたこと</h2>
+                    <p>何もない</p>
+                </div>
+            </div>
+
+            <div class="Diary" id="diary">
+                <h3>最新の日記</h3>
+                <div id="recent-diary-list"></div>
+                <hr>
+                <a href="diary_list.html" class="all-link" target="alldiary">すべての日記を見る</a>
+            </div>
+            <script src="diary_data.js"></script>
+            <script src="diary_script.js"></script>
+
+
+
+            <div class="Access" id="access"><p>
+                <h3>リンク</h3>
+                <a href="https://vrchat.com/home/user/usr_a427d301-ff12-4bf6-9cfc-a684ac63239b" target="vrc">VRChat</a>
+                <a href="https://x.com/otyaaaa03" target="twitter">X(旧:twitter)</a>
+                <a href="https://www.youtube.com/@%E3%81%8A%E3%81%A1%E3%82%83%E3%81%82%E3%81%82%E3%81%82" target="youtube">Youtube</a>
+                <a href="https://www.twitch.tv/otyaaa031" target="twitch">twitch</a>
+            </p>
+            </div>
+        </main>
+
+        
+        <aside>
+            <h3>News</h3>
+            <div class="news" id="news">
+                <div class="topic">
+                    <div class="time">2026/04/19</div>
+                    <div>作成日</div>
+                </div>
+                <div class="topic">
+                    <div class="time">2026/04/19</div>
+                    <div>最終更新日</div>
+                </div>
+            </div>
+        </aside>
+
+
+
+        <footer>
+            &copy; 2026 Otyaaa homepage
+        </footer>
+        
+        
+        <!--click the button-->
+        <script>
+            function menu() {
+                document.querySelector('nav').classList.toggle('open');
+            }
+        </script>
+
+    </body>
+</html>
+
+<!--あしぎからは備忘録、やりたいこと
+やってる、やってたゲーム
+-->

@@ -1,4 +1,3 @@
-
 function showRecentDiaries() {
     const container = document.getElementById('recent-diary-list');
     if (!container) return; 
@@ -45,4 +44,3 @@ document.addEventListener('DOMContentLoaded', () => {
     showAllDiaries();
 });
 
-//displayRecentDiaries();

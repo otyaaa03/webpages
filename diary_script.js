@@ -21,12 +21,19 @@ function showAllDiaries() {
     const container = document.getElementById('all-diary-list');
     if (!container) return; 
 
-    allDiaries.forEach(diary => {
+    //const reversedDiaries = [...allDiaries].reverse();
+
+    allDiaries.forEach((diary, index) => {
         const a = document.createElement('a');
         a.href = diary.url;
         a.textContent = `${diary.date} : ${diary.title}`;
         a.target = "_blank";
         a.rel = "noopener noreferrer";
+
+
+        if (index === 0) {
+            a.classList.add('new-post');
+        }
 
         container.appendChild(a);
     });

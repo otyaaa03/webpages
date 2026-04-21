@@ -1,7 +1,7 @@
 
 const allDiaries = [
-    { date: "20260422", title: "third", url: "diary/20260422.html" },
-    { date: "20260421", title: "third", url: "diary/20260421.html" },
+    { date: "20260422", title: "生きることと考えること", url: "diary/20260422.html" },
+    { date: "20260421", title: "恋愛", url: "diary/20260421.html" },
     { date: "20260420", title: "second", url: "diary/20260420.html" },
     { date: "20260419", title: "first", url: "diary/20260419.html" },
 ];

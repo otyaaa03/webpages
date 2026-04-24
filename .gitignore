@@ -1,0 +1,8 @@
+.htpasswd
+.htpasswd_diary
+default.conf
+diary/
+
+.DS_Store
+.vscode/
+Thumbs.db
